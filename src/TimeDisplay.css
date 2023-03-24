@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: "Red Hat Text", sans-serif;
+  }
+
+:root {
+    --primary-red: hsl(345, 95%, 68%);
+}
+
+h1,
+h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  letter-spacing: 0.2rem;
+}
+
+.countdown-h1 {
+    font-size: 5rem;
+    align-self: center;
+    color: var(--primary-red);
+    z-index: 1;
+}
+
+h2 {
+    text-align: center;
+    color: hsl(237, 18%, 59%);
+}
+
+
+
+.middle {
+    position: absolute;
+    transform: translateY(2.7rem);
+    width: 8.5rem;
+    height: 1px;
+    background-color: hsl(235, 16%, 14%);
+}
